@@ -1,0 +1,676 @@
+mixin districts(modifier)
+  section.districts&attributes(attributes)
+    .districts__container 
+      h3.districts__title Районы обслуживания
+      .districts__tabs-default
+        .districts__universal-tab
+          ul(role="tablist").districts__tabs
+            li.districts__item
+              button(type="button" data-tab="tab-1").districts__btn ЮАО
+            li.districts__item
+              button(type="button" data-tab="tab-2").districts__btn ВАО
+            li.districts__item 
+              button(type="button" data-tab="tab-3").districts__btn ЮЗАО
+            li.districts__item 
+              button(type="button" data-tab="tab-4").districts__btn СВАО
+            li.districts__item 
+              button(type="button" data-tab="tab-5").districts__btn Московская область
+            li.districts__item 
+              button(type="button" data-tab="tab-6").districts__btn ЮВАО
+            li.districts__item 
+              button(type="button" data-tab="tab-7").districts__btn ЗАО
+            li.districts__item 
+              button(type="button" data-tab="tab-8").districts__btn САО
+            li.districts__item 
+              button(type="button" data-tab="tab-9").districts__btn НАО
+            li.districts__item 
+              button(type="button" data-tab="tab-10").districts__btn ЗЕЛАО
+            li.districts__item 
+              button(type="button" data-tab="tab-11").districts__btn ТАО
+            li.districts__item 
+              button(type="button" data-tab="tab-12").districts__btn СЗАО
+            li.districts__item 
+              button(type="button" data-tab="tab-13").districts__btn ЦАО
+        .districts__tab-panel 
+          .districts__tab-item.districts__tab-item--active(id="tab-1")
+            a(href="#").districts__tab-title ЮАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Бирюлёво Восточное
+                  a(href="#") Бирюлёво Западное
+                  a(href="#") Братеево
+              .districts__group 
+                .districts__group-item Д 
+                .districts__links
+                  a(href="#") Даниловский
+                  a(href="#") Донской
+              .districts__group 
+                .districts__group-item З
+                .districts__links
+                  a(href="#") Зябликово
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Москворечье-Сабурово 
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Нагатино-Садовники 
+                  a(href="#") Нагатинский Затон
+                  a(href="#") Нагорный
+              .districts__group 
+                .districts__group-item О
+                .districts__links
+                  a(href="#") Орехово-Борисово Северное
+                  a(href="#") Орехово-Борисово Южное
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Район Царицыно
+              .districts__group 
+                .districts__group-item Ч
+                .districts__links
+                  a(href="#") Чертаново Северное
+                  a(href="#") Чертаново Центральное
+                  a(href="#") Чертаново Южное
+          .districts__tab-item(id="tab-2")
+            a(href="#").districts__tab-title ВАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Богородское
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Вешняки
+                  a(href="#") Восточное Измайлово
+                  a(href="#") Восточный
+              .districts__group 
+                .districts__group-item Г
+                .districts__links
+                  a(href="#") Гальяново
+              .districts__group 
+                .districts__group-item И
+                .districts__links
+                  a(href="#") Ивановское
+                  a(href="#") Измайлово
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Косино-Ухтомский
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Метрогородок
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Новогиреево
+                  a(href="#") Новокосино
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Перово
+                  a(href="#") Преображенское
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Соколиная Гора
+                  a(href="#") Сокольники
+                  a(href="#") Северо Измайлово
+          .districts__tab-item(id="tab-3")
+            a(href="#").districts__tab-title ЮЗАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item А
+                .districts__links
+                  a(href="#") Академический
+              .districts__group 
+                .districts__group-item Г
+                .districts__links
+                  a(href="#") Гагаринский
+              .districts__group 
+                .districts__group-item З
+                .districts__links
+                  a(href="#") Зюзино
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Коньково
+                  a(href="#") Котловка
+              .districts__group 
+                .districts__group-item Л
+                .districts__links
+                  a(href="#") Ломоносовский
+              .districts__group 
+                .districts__group-item О
+                .districts__links
+                  a(href="#") Обручевский
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Северное Бутово
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Тёплый Стан
+              .districts__group 
+                .districts__group-item Ч
+                .districts__links
+                  a(href="#") Черёмушки
+              .districts__group 
+                .districts__group-item Ю
+                .districts__links
+                  a(href="#") Южное Бутово
+              .districts__group 
+                .districts__group-item Я
+                .districts__links
+                  a(href="#") Ясенево
+          .districts__tab-item(id="tab-4")
+            a(href="#").districts__tab-title СВАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item А
+                .districts__links
+                  a(href="#") Алексеевский
+                  a(href="#") Алтуфьевский
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Бабушкинский
+                  a(href="#") Бибирево
+                  a(href="#") Бутырский
+              .districts__group 
+                .districts__group-item Л
+                .districts__links
+                  a(href="#") Лианозово
+                  a(href="#") Лосиноостровский
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Марфино
+                  a(href="#") Марьина Роща
+              .districts__group 
+                .districts__group-item О
+                .districts__links
+                  a(href="#") Останкинский
+                  a(href="#") Отрадное
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Ростокино
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Свиблово
+                  a(href="#") Северное Медведково
+                  a(href="#") Северный
+              .districts__group 
+                .districts__group-item Ю
+                .districts__links
+                  a(href="#") Южное Медведково
+              .districts__group 
+                .districts__group-item Я
+                .districts__links
+                  a(href="#") Ярославский
+          .districts__tab-item(id="tab-5")
+            a(href="#").districts__tab-title Московская область
+            .districts__groups 
+              .districts__group 
+                .districts__group-item А
+                .districts__links
+                  a(href="#") Апрелевка
+                  a(href="#") Агрогород
+                  a(href="#") Анискино
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Балашиха
+                  a(href="#") Бронницы
+                  a(href="#") Быково
+                  a(href="#") Барвиха
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Видное
+                  a(href="#") Вельяминово
+              .districts__group 
+                .districts__group-item Г
+                .districts__links
+                  a(href="#") Голицыно
+                  a(href="#") Горки-2
+              .districts__group 
+                .districts__group-item Д
+                .districts__links
+                  a(href="#") Дзержинский
+                  a(href="#") Долгопрудный
+                  a(href="#") Домодедово
+                  a(href="#") Дедовск
+                  a(href="#") Дмитров
+                  a(href="#") Дурыкино
+              .districts__group 
+                .districts__group-item Ж
+                .districts__links
+                  a(href="#") Железнодорожный
+                  a(href="#") Жуковский
+                  a(href="#") Жаворонки
+                  a(href="#") Жуковка
+              .districts__group 
+                .districts__group-item З
+                .districts__links
+                  a(href="#") Зеленоград
+                  a(href="#") Звенигород
+              .districts__group 
+                .districts__group-item И
+                .districts__links
+                  a(href="#") Ивантеевка
+                  a(href="#") Истра
+                  a(href="#") Ильинское
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Котельники
+                  a(href="#") Красногорск
+                  a(href="#") Королёв
+                  a(href="#") Климовск
+                  a(href="#") Краснознаменск
+                  a(href="#") Красноармейск
+              .districts__group 
+                .districts__group-item Л
+                .districts__links
+                  a(href="#") Люберцы
+                  a(href="#") Лыткарино
+                  a(href="#") Лобня
+                  a(href="#") Лосино-Петровский
+                  a(href="#") Лесной
+                  a(href="#") Львовский
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Мытищи
+                  a(href="#") Московский
+                  a(href="#") Малаховка
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Нахабино
+                  a(href="#") Ногинск
+                  a(href="#") Николина Гора
+              .districts__group 
+                .districts__group-item О
+                .districts__links
+                  a(href="#") Одинцово
+                  a(href="#") Обухово
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Подольск
+                  a(href="#") Пушкино
+                  a(href="#") Подвязного
+                  a(href="#") Первомайский
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Реутов
+                  a(href="#") Раменское
+                  a(href="#") Ромашково
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Старая Купавна
+                  a(href="#") Солнечногорск
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Троицк
+                  a(href="#") Томилино
+              .districts__group 
+                .districts__group-item У
+                .districts__links
+                  a(href="#") Успенское
+                  a(href="#") Усово
+              .districts__group 
+                .districts__group-item Ф
+                .districts__links
+                  a(href="#") Фрязино
+                  a(href="#") Фряново
+              .districts__group 
+                .districts__group-item Х
+                .districts__links
+                  a(href="#") Химки
+              .districts__group 
+                .districts__group-item Ч
+                .districts__links
+                  a(href="#") Черноголовка
+                  a(href="#") Чехов
+              .districts__group 
+                .districts__group-item Щ
+                .districts__links
+                  a(href="#") Щербинка
+                  a(href="#") Щелково
+              .districts__group 
+                .districts__group-item Э
+                .districts__links
+                  a(href="#") Электроугли
+                  a(href="#") Электросталь
+              .districts__group 
+                .districts__group-item Ю
+                .districts__links
+                  a(href="#") Юбилейный
+              .districts__group 
+                .districts__group-item Я
+                .districts__links
+                  a(href="#") Яхрома
+          .districts__tab-item(id="tab-6")
+            a(href="#").districts__tab-title ЮВАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Выхино-Жулебино
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Капотня
+                  a(href="#") Кузминки
+              .districts__group 
+                .districts__group-item Л
+                .districts__links
+                  a(href="#") Лефортово
+                  a(href="#") Люблино
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Марьино
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Некрасовка
+                  a(href="#") Нижегородский
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Печатники
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Рязанский
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Текстильщики
+              .districts__group 
+                .districts__group-item Ю
+                .districts__links
+                  a(href="#") Южнопортовый
+          .districts__tab-item(id="tab-7")
+            a(href="#").districts__tab-title ЗАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Внуково
+              .districts__group 
+                .districts__group-item Д
+                .districts__links
+                  a(href="#") Дорогомилово
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Крылатское
+                  a(href="#") Кунцево
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Можайск
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Ново-Переделкино
+              .districts__group 
+                .districts__group-item О
+                .districts__links
+                  a(href="#") Очаково-Матвеевское
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Проспект Вернадского
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Раменки
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Солнцево
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Тропарёво-Никулино
+              .districts__group 
+                .districts__group-item Ф
+                .districts__links
+                  a(href="#") Филевский Парк
+                  a(href="#") Фили-Давыдково
+          .districts__tab-item(id="tab-8")
+            a(href="#").districts__tab-title САО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item А
+                .districts__links
+                  a(href="#") Аэропорт
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Беговой
+                  a(href="#") Бескудниковский
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Войковский
+                  a(href="#") Восточное Дегунино
+              .districts__group 
+                .districts__group-item Г
+                .districts__links
+                  a(href="#") Головинский
+              .districts__group 
+                .districts__group-item Д
+                .districts__links
+                  a(href="#") Дмитровский
+              .districts__group 
+                .districts__group-item З
+                .districts__links
+                  a(href="#") Западное Дегунино
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Коптево
+              .districts__group 
+                .districts__group-item Л
+                .districts__links
+                  a(href="#") Левобережный
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Молжаниновский
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Савёловский
+                  a(href="#") Сокол
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Темирязевский
+              .districts__group 
+                .districts__group-item Х
+                .districts__links
+                  a(href="#") Ховрино
+                  a(href="#") Хорошёвский
+          .districts__tab-item(id="tab-9")
+            a(href="#").districts__tab-title НАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Внуковское
+                  a(href="#") Воскресенское
+              .districts__group 
+                .districts__group-item Д
+                .districts__links
+                  a(href="#") Десёновское
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Кокошкино
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Марушкинское
+                  a(href="#") Московский
+                  a(href="#") Мосрентген
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Рязановское
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Сосинское
+              .districts__group 
+                .districts__group-item Ф
+                .districts__links
+                  a(href="#") Филимоновское
+              .districts__group 
+                .districts__group-item Щ
+                .districts__links
+                  a(href="#") Щербинка
+          .districts__tab-item(id="tab-10")
+            a(href="#").districts__tab-title ЗЕЛАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Крюково
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Матушкино
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Савёлки
+                  a(href="#") Старое Крюково
+                  a(href="#") Силино
+          .districts__tab-item(id="tab-11")
+            a(href="#").districts__tab-title ТАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item В
+                .districts__links
+                  a(href="#") Вороновское
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Киевский
+                  a(href="#") Клёновское
+                  a(href="#") Краснопахорское
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Михайлово-Ярцевское
+              .districts__group 
+                .districts__group-item Н
+                .districts__links
+                  a(href="#") Новофёдоровское
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Первомайское
+              .districts__group 
+                .districts__group-item Р
+                .districts__links
+                  a(href="#") Роговское
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Троицк
+              .districts__group 
+                .districts__group-item Щ
+                .districts__links
+                  a(href="#") Щаповское
+          .districts__tab-item(id="tab-12")
+            a(href="#").districts__tab-title СЗАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Куркино
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Митино
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Покровское-Стрешнево
+              .districts__group 
+                .districts__group-item С
+                .districts__links
+                  a(href="#") Северное Тушино
+                  a(href="#") Строгино
+              .districts__group 
+                .districts__group-item Х
+                .districts__links
+                  a(href="#") Хорошёво-Мнёвники
+              .districts__group 
+                .districts__group-item Щ
+                .districts__links
+                  a(href="#") Щукино
+              .districts__group 
+                .districts__group-item Ю
+                .districts__links
+                  a(href="#") Южное Тушино
+          .districts__tab-item(id="tab-13")
+            a(href="#").districts__tab-title ЦАО
+            .districts__groups 
+              .districts__group 
+                .districts__group-item А
+                .districts__links
+                  a(href="#") Арбат
+              .districts__group 
+                .districts__group-item Б
+                .districts__links
+                  a(href="#") Басманный
+              .districts__group 
+                .districts__group-item З
+                .districts__links
+                  a(href="#") Замоскворечье
+              .districts__group 
+                .districts__group-item К
+                .districts__links
+                  a(href="#") Красносельский
+              .districts__group 
+                .districts__group-item М
+                .districts__links
+                  a(href="#") Мещанский
+              .districts__group 
+                .districts__group-item П
+                .districts__links
+                  a(href="#") Пресненский
+              .districts__group 
+                .districts__group-item Т
+                .districts__links
+                  a(href="#") Таганский
+                  a(href="#") Тверской
+              .districts__group 
+                .districts__group-item Х
+                .districts__links
+                  a(href="#") Хамовники
+              .districts__group 
+                .districts__group-item Я
+                .districts__links
+                  a(href="#") Якиманка

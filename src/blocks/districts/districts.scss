@@ -1,0 +1,94 @@
+.districts {
+    &__container {
+        max-width: 1440px;
+        width: 95%;
+        margin: 0 auto;
+        padding: 40px 10px 0;
+    }
+
+    &__title {
+        font-family: Podkova;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        color: #44456b;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0;
+        gap: 20px 50px;
+    }
+
+    &__btn {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        background: #f5f6ff;
+        border-radius: 10px;
+        padding: 12px 10px;
+        color: #44456b;
+    }
+
+    
+    &__tab-title {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px; 
+        margin-bottom: 30px;
+        color: #44456b;
+    }
+
+    &__groups {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__group {
+        display: flex;
+        margin-top: 20px;
+        flex-basis: 350px;
+    }
+
+    &__group-item {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px; 
+        color: #a5a5a5;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        a {
+            color: #1b6ace; 
+            //margin-bottom: 5px;
+            padding-left: 10px;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px; 
+        }
+        
+    }
+    
+    
+    &__tab-item {
+        display: none;
+        &--active {
+            display: block;
+        }
+    }
+    
+
+    
+       
+        
+
+
+  
+}
