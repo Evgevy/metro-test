@@ -1,0 +1,16 @@
+mixin metro(modifier)
+  section.metro&attributes(attributes)
+    .metro__container
+      h3.metro__title Станции метро
+      .metro__tab-defualt
+        .metro__tabs 
+          ul.metro__tablist 
+            li.metro__item
+              a(href="#" data-tab="tab-1")
+                include img/arbatsko-pokrovskaya.svg
+            li.metro__item
+              a(href="#" data-tab="tab-2")
+                include img/bolshaya-koltsevaya.svg
+            li.metro__item
+              a(href="#" data-tab="tab-3")
+                include img/butovskaya.svg

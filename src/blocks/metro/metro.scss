@@ -1,5 +1,4 @@
-.districts-and-metro {
-    padding-top: 60px;
+.metro {
     &__container {
         max-width: 1440px;
         width: 100%;
@@ -9,12 +8,14 @@
 
     &__title {
         font-family: Podkova;
-        font-size: 48px;
-        font-weight: 800;
-        line-height: 63px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
         color: #44456b;
     }
 
-   
+    &__tab-defualt {
+        margin: 40px 0;
+    }
   
 }

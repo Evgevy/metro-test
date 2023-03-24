@@ -1,9 +1,10 @@
 .districts {
+    padding-top: 40px;
     &__container {
         max-width: 1440px;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
-        padding: 40px 10px 0;
+        padding: 0 10px;
     }
 
     &__title {
@@ -21,6 +22,10 @@
         gap: 20px 50px;
     }
 
+    &__tabs-default {
+        margin-bottom: 60px;
+    }
+
     &__btn {
         font-family: Inter;
         font-size: 18px;
@@ -30,6 +35,20 @@
         border-radius: 10px;
         padding: 12px 10px;
         color: #44456b;
+        transition: .3s;
+        &--active {
+            background: #44456b;
+            color: #f5f6ff;
+        }
+    }
+
+    &__btn:hover {
+        background: #e1e2ff;
+    }
+
+    &__btn--active:hover {
+        background: #44456b;
+        color: #f5f6ff;
     }
 
     
@@ -38,8 +57,9 @@
         font-size: 25px;
         font-weight: 600;
         line-height: 30px; 
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         color: #44456b;
+        display: inline-block;
     }
 
     &__groups {
@@ -75,6 +95,11 @@
         }
         
     }
+
+    &__links > a:hover {
+        text-decoration: underline;
+        color: #1b6ace;
+    }
     
     
     &__tab-item {
@@ -83,12 +108,5 @@
             display: block;
         }
     }
-    
 
-    
-       
-        
-
-
-  
 }

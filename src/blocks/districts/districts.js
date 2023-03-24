@@ -15,3 +15,17 @@ for (let item of prodBtn) {
         content.classList.add('districts__tab-item--active') 
     })
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    let myBtns=document.querySelectorAll('.districts__btn');
+    myBtns.forEach(function(btn) {
+
+        btn.addEventListener('click', () => {
+          myBtns.forEach(b => b.classList.remove('districts__btn--active'));
+          btn.classList.add('districts__btn--active');
+        });
+ 
+    });
+
+});
