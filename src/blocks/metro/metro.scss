@@ -17,5 +17,87 @@
     &__tab-defualt {
         margin: 40px 0;
     }
+
+    &__tablist {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0;
+        gap: 20px 50px;
+    }
+
+    &__btn {
+        background: #f5f6ff;
+        border-radius: 10px;
+        padding: 8px 12px 0px;
+        svg {
+            width: 35px;
+            height: 30px;
+        }
+        &--active {
+            background: #44456b;
+        }
+    }
+
+    &__btn:hover {
+        background: #e1e2ff;
+    }
+
+    &__btn--active:hover {
+        background: #44456b;
+    }
+
+    &__tab-title {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px; 
+        margin-bottom: 20px;
+        color: #44456b;
+    }
+
+    &__groups {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__group {
+        display: flex;
+        margin-top: 20px;
+        flex-basis: 350px;
+    }
+
+    &__group-item {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px; 
+        color: #a5a5a5;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        a {
+            color: #1b6ace; 
+            padding-left: 10px;
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px; 
+        }
+        
+    }
+
+    &__links > a:hover {
+        text-decoration: underline;
+        color: #1b6ace;
+    }
+
+    &__tab-item {
+        display: none;
+        &--open {
+            display: block;
+        }
+    }
   
 }
