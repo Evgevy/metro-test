@@ -13,6 +13,7 @@ for (let item of prodBtn) {
 
         const content = document.querySelector('#' + item.dataset.tab);
         content.classList.add('districts__tab-item--active') 
+        
     })
 }
 

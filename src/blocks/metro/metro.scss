@@ -1,8 +1,7 @@
-.districts {
+.metro {
     ul, ol {
         list-style: none;
     }
-    padding-top: 40px;
 
     &__container {
         max-width: 1440px;
@@ -17,9 +16,14 @@
         font-weight: 600;
         line-height: 50px;
         color: black;
+        margin-top: 40px;
     }
 
-    &__tabs {
+    &__tab-defualt {
+        margin: 40px 0;
+    }
+
+    &__tablist {
         display: flex;
         flex-wrap: wrap;
         margin: 40px 0;
@@ -27,26 +31,22 @@
         padding: 0;
     }
 
-    &__tabs-default {
-        margin-bottom: 60px;
-    }
-
     &__btn {
-        font-family: Inter;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 30px;
         background: #f5f6ff;
         border-radius: 10px;
-        padding: 12px 10px;
-        color: #44456b;
-        transition: .3s;
+        padding: 6px 11px;
+        width: 57px;
+        height: 40px;
         cursor: pointer;
         border: none;
+        svg {
+            rect {
+                margin: 0 auto;
+            }
+        }
         &--active {
-            background: #44456b;
-            color: #f5f6ff;
             cursor: pointer;
+            background: #44456b;
         }
     }
 
@@ -56,10 +56,8 @@
 
     &__btn--active:hover {
         background: #44456b;
-        color: #f5f6ff;
     }
 
-    
     &__tab-title {
         font-family: Montserrat;
         font-size: 25px;
@@ -67,23 +65,18 @@
         line-height: 30px; 
         margin-bottom: 20px;
         color: black;
-        display: inline-block;
-        text-decoration: none;
+        
     }
 
     &__groups {
-        /*display: flex;
-        flex-wrap: wrap;*/
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
 
-    
-
     &__group {
         display: flex;
         margin-top: 20px;
-        flex-basis: 310px;
+        flex-basis: 300px;
     }
 
     &__group-item {
@@ -103,7 +96,7 @@
             font-family: Inter;
             font-size: 17px;
             font-weight: 500;
-            line-height: 30px;
+            line-height: 30px; 
             text-decoration: none;
         }
         
@@ -113,8 +106,7 @@
         text-decoration: underline;
         color: #1b6ace;
     }
-    
-    
+
     &__tab-item {
         display: none;
         &--active {
@@ -146,7 +138,7 @@
             padding: 5px 10px;
         }
 
-        &__tabs {
+        &__tablist {
             gap: 15px 30px;
         }
 
@@ -163,21 +155,20 @@
         }
     }
 
-    @media screen and (max-width: 540px) {
+    @media screen and (max-width: 590px) {
         text-align: center;
         &__groups {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             text-align: left;
-           
         }
-
-        
     }
 
     @media screen and (max-width: 360px) {
         text-align: left;
     }
 
+   
+  
 }

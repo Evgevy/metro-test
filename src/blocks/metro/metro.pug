@@ -1,0 +1,1028 @@
+mixin metro(modifier)
+  section.metro&attributes(attributes)
+    .metro__container
+      h3.metro__title Станции метро
+      .metro__tab-defualt
+        .metro__tabs 
+          ul.metro__tablist 
+            li.metro__item
+              button(type="button" data-tab="tub-1").metro__btn.metro__btn--active
+                include img/arbatsko-pokrovskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-2").metro__btn
+                include img/bolshaya-koltsevaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-3").metro__btn
+                include img/butovskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-4").metro__btn
+                include img/zamoskvorec.svg
+            li.metro__item
+              button(type="button" data-tab="tub-5").metro__btn
+                include img/kalininsko-sontsevskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-6").metro__btn
+                include img/kaluzhsko-rizhskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-7").metro__btn
+                include img/kakhovskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-8").metro__btn
+                include img/koltsevaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-9").metro__btn
+                include img/lublinsko-dmitrovskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-10").metro__btn
+                include img/monorels.svg
+            li.metro__item
+              button(type="button" data-tab="tub-11").metro__btn
+                include img/msk.svg
+            li.metro__item
+              button(type="button" data-tab="tub-12").metro__btn
+                include img/d-1.svg
+            li.metro__item
+              button(type="button" data-tab="tub-13").metro__btn
+                include img/d-2.svg
+            li.metro__item
+              button(type="button" data-tab="tub-14").metro__btn
+                include img/nekrasovskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-15").metro__btn
+                include img/serpuho-timiryazevskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-16").metro__btn
+                include img/sokolnicheskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-17").metro__btn
+                include img/tagansko-krasnopresnenskaya.svg
+            li.metro__item
+              button(type="button" data-tab="tub-18").metro__btn
+                include img/filevskaya.svg
+        .metro__tab-panel 
+          .metro__tab-item.metro__tab-item--active(id="tub-1")
+            .metro__tab-title Арбатско-Покровская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/arbatskaya/") Арбатская
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/baumanskaya/") Бауманская
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/volokolamskaya/") Волоколамская
+              .metro__group
+                .metro__group-item И
+                .metro__links
+                  a(href="/izmajlovskaya/") Измайловская
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kievskaya/") Киевская
+                  a(href="/kurskaya/") Курская
+                  a(href="/krylatskoe/") Крылатское
+                  a(href="/kunczevskaya/") Кунцевская
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/mitino/") Митино
+                  a(href="/molodyozhnaya/") Молодёжная
+                  a(href="/myakinino/") Мякинино
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/park-pobedy/") Парк Победы
+                  a(href="/partizanskaya/") Партизанская
+                  a(href="/pervomajskaya/") Первомайская
+                  a(href="/ploshhad-revolyuczii/") Площадь Революции
+                  a(href="/pyatniczkoe-shosse/") Пятницкое Шоссе
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/semyonovskaya/") Семёновская
+                  a(href="/slavyanskij-bulvar/") Славянский бульвар
+                  a(href="/smolenskaya/") Смоленская
+                  a(href="/strogino/") Строгино
+              .metro__group
+                .metro__group-item Щ
+                .metro__links
+                  a(href="/shhyolkovskaya/") Щёлковская
+              .metro__group
+                .metro__group-item Э
+                .metro__links
+                  a(href="/elktrozavodskaya/") Элктрозаводская
+          .metro__tab-item(id="tub-2")
+            .metro__tab-title Большая кольцевая линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/delovoj-czentr/") Деловой центр
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/petrovskij-park/") Петровский парк
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/savyolovskaya/") Савёловская
+              .metro__group
+                .metro__group-item Х
+                .metro__links
+                  a(href="/khoroshyovskaya/") Хорошёвская
+              .metro__group
+                .metro__group-item Ц
+                .metro__links
+                  a(href="/czska/") ЦСКА
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/shelepikha/") Шелепиха
+          .metro__tab-item(id="tub-3")
+            .metro__tab-title Бутовская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bitczevskij-park/") Битцевский парк
+                  a(href="/bulvar-admirala-ushakova/") Бульвар адмирала Ушакова
+                  a(href="/buninskaya-alleya/") Бунинская Аллея
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lesoparkovaya/") Лесопарковая
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ulicza-gorchakova/") Улица Горчакова
+                  a(href="/ulicza-skobelevskaya/") Улица Скобелевская
+                  a(href="/ulicza-starokachalovskaya/") Улица Старокачаловская
+          .metro__tab-item(id="tub-4")
+            .metro__tab-title Замоскворецкая линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/avtozavodskaya/") Автозаводская
+                  a(href="/alma-atinskaya/") Алма-Атинская
+                  a(href="/aeroport/") Аэропорт
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/belorusskaya/") Белорусская
+                  a(href="/belomorskaya/") Беломорская
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vodnyj-stadion/") Водный стадион
+                  a(href="/vojkovskaya/") Войковская
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dinamo/") Динамо
+                  a(href="/domodedovskaya/") Домодедовская
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kantemirovskaya/") Кантемировская
+                  a(href="/kashirskaya/") Каширская
+                  a(href="/kolomenskaya/") Коломенская
+                  a(href="/krasnogvardejskaya/") Красногвардейская
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/mayakovskaya/") Маяковская
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/novokuzneczkaya/") Новокузнецкая
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/orekhovo/") Орехово
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/paveleczkaya/") Павелецкая
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rechnoj-vokzal/") Речной вокзал
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/sokol/") Сокол
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/tverskaya/") Тверская
+                  a(href="/teatralnaya/") Театральная
+                  a(href="/tekhnopark/") Технопарк
+              .metro__group
+                .metro__group-item Х
+                .metro__links
+                  a(href="/khovrino/") Ховрино
+              .metro__group
+                .metro__group-item Ц
+                .metro__links
+                  a(href="/czariczyno/") Царицыно
+          .metro__tab-item(id="tub-5")
+            .metro__tab-title Колининско-Солнцевкая линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/aviamotornaya/") Авиамоторная
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/borovskoe-shosse/") Боровское шоссе
+              .metro__group
+                .metro__group-item Г
+                .metro__links
+                  a(href="/govorovo/") Говорово
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lomonosovskij-prospekt/") Ломоносовский проспект
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/marksistskaya/") Марксистская
+                  a(href="/minskaya/") Минская
+                  a(href="/michurinskij-prospekt/") Мичуринский проспект
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/novogireevo/") Новогиреево
+                  a(href="/novokosino/") Новокосино
+                  a(href="/novoperedelkino/") Новопеределкино
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/ozernaya/") Озерная
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/park-pobedy/") Парк Победы
+                  a(href="/perovo/") Перово
+                  a(href="/petrovskij-park/") Петровский парк
+                  a(href="/ploshhad-ilicha/") Площадь Ильича
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/ramenki/") Раменки
+                  a(href="/rasskazovka/") Рассказовка
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/solnczevo/") Солнцево
+                  a(href="/savelovkaya/") Савеловкая
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/tretyakovskaya/") Третьяковская
+              .metro__group
+                .metro__group-item Х
+                .metro__links
+                  a(href="/khoroshyovskaya/") Хорошёвская
+              .metro__group
+                .metro__group-item Ц
+                .metro__links
+                  a(href="/czska/") ЦСКА
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/shosse-entuziastov/") Шоссе Энтузиастов
+                  a(href="/shelepikha/") Шелепиха
+          .metro__tab-item(id="tub-6")
+            .metro__tab-title Калужско-Рижская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/akademicheskaya/") Академическая
+                  a(href="/alekseevskaya/") Алексеевская
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/babushkinskaya/") Бабушкинская
+                  a(href="/belyaevo/") Беляево
+                  a(href="/botanicheskij-sad/") Ботанический сад
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vdnkh/") ВДНХ
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kaluzhskaya/") Калужская
+                  a(href="/kitaj-gorod/") Китай-город
+                  a(href="/konkovo/") Коньково
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/leninskij-prospekt/") Ленинский проспект
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/medvedkovo/") Медведково
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/novoyasenevskaya/") Новоясеневская
+                  a(href="/novye-cheryomushki/") Новые Черёмушки
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/oktyabrskaya/") Октябрьская
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/prospekt-mira/") Проспект Мира
+                  a(href="/profsoyuznaya/") Профсоюзная
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rizhskaya/") Рижская
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/sviblovo/") Свиблово
+                  a(href="/sukharevskaya/") Сухаревская
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/tretyakovskaya/") Третьяковская
+                  a(href="/tyoplyj-stan/") Тёплый стан
+                  a(href="/turgenevskaya/") Тургеневская
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/shabolovskaya/") Шаболовская
+              .metro__group
+                .metro__group-item Я
+                .metro__links
+                  a(href="/yasenevo/") Ясенево
+          .metro__tab-item(id="tub-7")
+            .metro__tab-title Каховская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/varshavskaya/") Варшавская
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kashirskaya/") Каширская
+                  a(href="/kakhovskaya/") Каховская
+          .metro__tab-item(id="tub-8")
+            .metro__tab-title Кольцевая линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/belorusskaya/") Белорусская
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dobryninskaya/") Добрынинская
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kievskaya/") Киевская
+                  a(href="/komsomolskaya/") Комсомольская
+                  a(href="/krasnopresnenskaya/") Краснопресненская
+                  a(href="/kurskaya/") Курская
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/novoslobodskaya/") Новослободская
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/oktyabrskaya/") Октябрьская
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/paveleczkaya/") Павелецкая
+                  a(href="/park-kultury/") Парк Культуры
+                  a(href="/prospekt-mira/") Проспект Мира
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/taganskaya/") Таганская
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ulicza-novatorov/") Улица Новаторов
+          .metro__tab-item(id="tub-9")
+            .metro__tab-title Люблинско-Дмитровская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/borisovo/") Борисово
+                  a(href="/bratislavskaya/") Братиславская
+                  a(href="/butyrskaya/") Бутырская
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/verkhnie-likhobory/") Верхние Лихоборы
+                  a(href="/volzhskaya/") Волжская
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dostoevskaya/") Достоевская
+                  a(href="/dubrovka/") Дубровка
+              .metro__group
+                .metro__group-item З
+                .metro__links
+                  a(href="/zyablikovo/") Зябликово
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kozhukhovskaya/") Кожуховская
+                  a(href="/krestyanskaya-zastava/") Крестьянская застава
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lyublino/") Люблино
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/marina-roshha/") Марьина роща
+                  a(href="/marino/") Марьино
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/okruzhnaya/") Окружная
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/petrovsko-razumovskaya/") Петровско-Разумовская
+                  a(href="/pechatniki/") Печатники
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rimskaya/") Римская
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/seligerskaya/") Селигерская
+                  a(href="/sretenskij-bulvar/") Сретенский бульвар
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/trubnaya/") Трубная
+              .metro__group
+                .metro__group-item Ф
+                .metro__links
+                  a(href="/fonvizinskaya/") Фонвизинская
+              .metro__group
+                .metro__group-item Ч
+                .metro__links
+                  a(href="/chkalovskaya/") Чкаловская
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/shipilovskaya/") Шипиловская
+          .metro__tab-item(id="tub-10")
+            .metro__tab-title Московская монорельсовая транспортная система
+            .metro__groups
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vystavochnyj-czentr/") Выставочный центр
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/timiryazevskaya/") Тимирязевская
+                  a(href="/teleczentr/") Телецентр
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ulicza-milashenkova/") Улица Милашенкова
+                  a(href="/ulicza-sergeya-ejzenshtejna/") Улица Сергея Эйзенштейна
+                  a(href="/ulicza-akademika-korolyova/") Улица Академика Королёва
+          .metro__tab-item(id="tub-11")
+            .metro__tab-title Москосвкое центральное кольцо
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/avtozavodskaya/") Автозаводская
+                  a(href="/andronovka/") Андроновка
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bulvar-rokossovskogo/") Бульвар Рокоссовского
+                  a(href="/botanicheskij-sad/") Ботанический сад
+                  a(href="/baltijskaya/") Балтийская
+                  a(href="/belokamennaya/") Белокаменная
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vladykino/") Владыкино
+                  a(href="/verkhnie-kotly/") Верхние Котлы
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dubrovka/") Дубровка
+                  a(href="/delovoj-czentr/") Деловой центр
+              .metro__group
+                .metro__group-item З
+                .metro__links
+                  a(href="/zil/") ЗИЛ
+                  a(href="/zorge/") Зорге
+              .metro__group
+                .metro__group-item И
+                .metro__links
+                  a(href="/izmajlovo/") Измайлово
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kutuzovskaya/") Кутузовская
+                  a(href="/koptevo/") Коптево
+                  a(href="/krymskaya/") Крымская
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/likhobory/") Лихоборы
+                  a(href="/lokomotiv/") Локомотив
+                  a(href="/luzhniki/") Лужники
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/nizhegorodskaya/") Нижегородская
+                  a(href="/novokhokhlovskaya/") Новохохловская
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/okruzhnaya/") Окружная
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/panfilovskaya/") Панфиловская
+                  a(href="/ploshhad-gagarina/") Площадь Гагарина
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rostokino/") Ростокино
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/sokolinaya-gora/") Соколиная Гора
+                  a(href="/streshnevo/") Стрешнево
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ugreshskaya/") Угрешская
+              .metro__group
+                .metro__group-item Х
+                .metro__links
+                  a(href="/khoroshyovo/") Хорошёво
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/shosse-entuziastov/") Шоссе Энтузиастов
+                  a(href="/shelepikha/") Шелепиха
+          .metro__tab-item(id="tub-12")
+            .metro__tab-title МЦД-1 Лобня-Одинцово
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/belorusskaya/") Белорусская
+                  a(href="/begovaya/") Беговая
+                  a(href="/bakovka/") Баковка
+                  a(href="/beskudnikovo/") Бескудниково
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vodniki/") Водники
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/degunino/") Дегунино
+                  a(href="/dolgoprudnaya/") Долгопрудная
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kunczevskaya/") Кунцевская
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lianozovo/") Лианозово
+                  a(href="/lobnya/") Лобня
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/mark/") Марк
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/nemchinovka/") Немчиновка
+                  a(href="/novodachnaya/") Новодачная
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/okruzhnaya/") Окружная
+                  a(href="/odinczovo/") Одинцово
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rabochij-posyolok/") Рабочий Посёлок
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/savelovkaya/") Савеловкая
+                  a(href="/slavyanskij-bulvar/") Славянский бульвар
+                  a(href="/setun/") Сетунь
+                  a(href="/skolkovo/") Сколково
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/temiryazevskaya/") Темирязевская
+                  a(href="/testovskaya/") Тестовская
+              .metro__group
+                .metro__group-item Ф
+                .metro__links
+                  a(href="/fili/") Фили
+              .metro__group
+                .metro__group-item Х
+                .metro__links
+                  a(href="/khlebnikovo/") Хлебниково
+              .metro__group
+                .metro__group-item Ш
+                .metro__links
+                  a(href="/sheremetevskaya/") Шереметьевская
+          .metro__tab-item(id="tub-13")
+            .metro__tab-title МЦД-2 Нахабино-Подольск
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/anikeevka/") Аникеевка
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bitcza/") Битца
+                  a(href="/butovo/") Бутово
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/volokolamskaya/") Волоколамская
+              .metro__group
+                .metro__group-item Г
+                .metro__links
+                  a(href="/grazhdanskaya/") Гражданская
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dmitrovskaya/") Дмитровская
+                  a(href="/depo/") Депо
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kurskaya/") Курская
+                  a(href="/kalanchyovskaya/") Каланчёвская
+                  a(href="/kalitniki/") Калитники
+                  a(href="/krasnogorskaya/") Красногорская
+                  a(href="/krasnyj-baltiecz/") Красный Балтиец
+                  a(href="/krasnyj-stroitel/") Красный Строитель
+                  a(href="/kubanskaya/") Кубанская
+                  a(href="/kuryanovo/") Курьяново
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/moskva-tovarnaya/") Москва-Товарная
+                  a(href="/moskvoreche/") Москворечье
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/novokhokhlovskaya/") Новохохловская
+                  a(href="/nakhabino/") Нахабино
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/opalikha/") Опалиха
+                  a(href="/ostafevo/") Остафьево
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/pavshego/") Павшего
+                  a(href="/penyagino/") Пенягино
+                  a(href="/pererva/") Перерва
+                  a(href="/podolsk/") Подольск
+                  a(href="/pokrovskoe/") Покровское
+                  a(href="/pokrovskoe-streshnevo/") Покровское-Стрешнево
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rizhskaya/") Рижская
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/streshnevo/") Стрешнево
+                  a(href="/silikatnaya/") Силикатная
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/tekstilshhiki/") Текстильщики
+                  a(href="/tushinskaya/") Тушинская
+                  a(href="/trikotazhnaya/") Трикотажная
+              .metro__group
+                .metro__group-item Ц
+                .metro__links
+                  a(href="/czariczyno/") Царицыно
+              .metro__group
+                .metro__group-item Щ
+                .metro__links
+                  a(href="/shherbinka/") Щербинка
+          .metro__tab-item(id="tub-14")
+            .metro__tab-title Некрасовская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/aviamotornaya/") Авиамоторная
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kosino/") Косино
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lefortovo/") Лефортово
+                  a(href="/lukhmanovskaya/") Лухмановская
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/nekrasovka/") Некрасовка
+                  a(href="/nizhegorodskaya/") Нижегородская
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/okskaya/") Окская
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/stakhanovskaya/") Стахановская
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/ulicza-dmitrievskogo/") Улица Дмитриевского
+              .metro__group
+                .metro__group-item Э
+                .metro__links
+                  a(href="/elektrozavodskaya/") Электрозаводская
+              .metro__group
+                .metro__group-item Ю
+                .metro__links
+                  a(href="/yugo-vostochnaya/") Юго-Восточная
+          .metro__tab-item(id="tub-15")
+            .metro__tab-title Серпуховско-Тимирязевская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/altufevo/") Алтуфьево
+                  a(href="/annino/") Аннино
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bibirevo/") Бибирево
+                  a(href="/boroviczkaya/") Боровицкая
+                  a(href="/bulvar-dmitriya-donskogo/") Бульвар Дмитрия Донского
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vladykino/") Владыкино
+              .metro__group
+                .metro__group-item Д
+                .metro__links
+                  a(href="/dmitrovskaya/") Дмитровская
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/mendeleevskaya/") Менделеевская
+              .metro__group
+                .metro__group-item Н
+                .metro__links
+                  a(href="/nagatinskaya/") Нагатинская
+                  a(href="/nagornaya/") Нагорная
+                  a(href="/nakhimovskij-prospekt/") Нахимовский Проспект
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/otradnoe/") Отрадное
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/petrovsko-razumovskaya/") Петровско-Разумовская
+                  a(href="/polyanka/") Полянка
+                  a(href="/prazhskaya/") Пражская
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/savelovskaya/") Савеловская
+                  a(href="/sevastopolskaya/") Севастопольская
+                  a(href="/serpukhovskaya/") Серпуховская
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/temiryazevskaya/") Темирязевская
+                  a(href="/tulskaya/") Тульская
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ulicza-akademika-yangelya/") Улица академика Янгеля
+              .metro__group
+                .metro__group-item Ц
+                .metro__links
+                  a(href="/czvetnoj-bulvar/") Цветной бульвар
+              .metro__group
+                .metro__group-item Ч
+                .metro__links
+                  a(href="/chertanovskaya/") Чертановская
+                  a(href="/chekhovskaya/") Чеховская
+              .metro__group
+                .metro__group-item Ю
+                .metro__links
+                  a(href="/yuzhnaya/") Южная
+          .metro__tab-item(id="tub-16")
+            .metro__tab-title Сокольническая линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bulvar-rokossovskogo/") Бульвар Рокоссовского
+                  a(href="/biblioteka-imeni-lenina/") Библиотека имени Ленина
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/vorobyovy-gory/") Воробьёвы горы
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/komsomolskaya/") Комсомольская
+                  a(href="/krasnoselskaya/") Красносельская
+                  a(href="/krasnye-vorota/") Красные ворота
+                  a(href="/kropotkinskaya/") Кропоткинская
+                  a(href="/kommunarka/") Коммунарка
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lubyanka/") Лубянка
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/okhotnyj-ryad/") Охотный ряд
+                  a(href="/olkhovaya/") Ольховая
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/park-kultury/") Парк Культуры
+                  a(href="/preobrazhenskaya-ploshhad/") Преображенская площадь
+                  a(href="/prospekt-vernadskogo/") Проспект Вернадского
+                  a(href="/proshkino/") Прошкино
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/rumyanczevo/") Румянцево
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/sokolniki/") Сокольники
+                  a(href="/sportivnaya/") Спортивная
+                  a(href="/salarevo/") Саларьево
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/troparyovo/") Тропарёво
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/universitet/") Университет
+              .metro__group
+                .metro__group-item Ф
+                .metro__links
+                  a(href="/frunzenskaya/") Фрунзенская
+                  a(href="/filatov-lug/") Филатов Луг
+              .metro__group
+                .metro__group-item Ч
+                .metro__links
+                  a(href="/cherkizovskaya/") Черкизовская
+                  a(href="/chistye-prudy/") Чистые пруды
+              .metro__group
+                .metro__group-item Ю
+                .metro__links
+                  a(href="/yugo-zapadnaya/") Юго-Западная
+          .metro__tab-item(id="tub-17")
+            .metro__tab-title Таганско-Краснопресненская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/barrikadnaya/") Баррикадная
+                  a(href="/begovaya/") Беговая
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/volgogradskij-prospekt/") Волгоградский проспект
+                  a(href="/vykhino/") Выхино 
+              .metro__group
+                .metro__group-item Ж
+                .metro__links
+                  a(href="/zhulebino/") Жулебино
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kitaj-gorod/") Китай-Город
+                  a(href="/kotelniki/") Котельники
+                  a(href="/kuzneczkij-most/") Кузнецкий мост
+                  a(href="/kuzminki/") Кузминки
+              .metro__group
+                .metro__group-item Л
+                .metro__links
+                  a(href="/lermontovskij-prospekt/") Лермонтовский проспект
+              .metro__group
+                .metro__group-item О
+                .metro__links
+                  a(href="/oktyabrskoe-pole/") Октябрьское поле
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/planernaya/") Планерная
+                  a(href="/polezhaevskaya/") Полежаевская
+                  a(href="/proletarskaya/") Пролетарская
+                  a(href="/pushkinskaya/") Пушкинская
+              .metro__group
+                .metro__group-item Р
+                .metro__links
+                  a(href="/ryazanskij-prospekt/") Рязанский проспект
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/spartak/") Спартак
+                  a(href="/skhodnenskaya/") Сходненская
+              .metro__group
+                .metro__group-item Т
+                .metro__links
+                  a(href="/taganskaya/") Таганская
+                  a(href="/tekstilshhiki/") Текстильщики
+                  a(href="/tushinskaya/") Тушинская
+              .metro__group
+                .metro__group-item У
+                .metro__links
+                  a(href="/ulicza-1905-goda/") Улица 1905 года
+              .metro__group
+                .metro__group-item Щ
+                .metro__links
+                  a(href="/shhukinskaya/") Щукинская
+          .metro__tab-item(id="tub-18")
+            .metro__tab-title Филёвская линия
+            .metro__groups
+              .metro__group
+                .metro__group-item А
+                .metro__links
+                  a(href="/arbatskaya/") Арбатская
+                  a(href="/aleksandrovskij-sad/") Александровский сад
+              .metro__group
+                .metro__group-item Б
+                .metro__links
+                  a(href="/bagrationovskaya/") Багратионовская
+              .metro__group
+                .metro__group-item В
+                .metro__links
+                  a(href="/vystavochnaya/") Выставочная
+              .metro__group
+                .metro__group-item К
+                .metro__links
+                  a(href="/kievskaya/") Киевская
+                  a(href="/kunczevskaya/") Кунцевская
+                  a(href="/kutuzovskaya/") Кутузовская
+              .metro__group
+                .metro__group-item М
+                .metro__links
+                  a(href="/mezhdunarodnaya/") Международная
+              .metro__group
+                .metro__group-item П
+                .metro__links
+                  a(href="/pionerskaya/") Пионерская
+              .metro__group
+                .metro__group-item С
+                .metro__links
+                  a(href="/smolenskaya/") Смоленская
+                  a(href="/studencheskaya/") Студенческая
+              .metro__group
+                .metro__group-item Ф
+                .metro__links
+                  a(href="/filevskij-park/") Филевский парк
+                  a(href="/fili/") Фили             
+  
